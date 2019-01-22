@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		3CC3B16421F7303500582D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B16321F7303500582D32 /* AppDelegate.swift */; };
-		3CC3B16621F7303500582D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B16521F7303500582D32 /* ViewController.swift */; };
 		3CC3B16921F7303500582D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3B16721F7303500582D32 /* Main.storyboard */; };
 		3CC3B16B21F7303600582D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3B16A21F7303600582D32 /* Assets.xcassets */; };
 		3CC3B16E21F7303600582D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC3B16C21F7303600582D32 /* LaunchScreen.storyboard */; };
+		3CC3B17621F7327500582D32 /* LogiinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B17521F7327500582D32 /* LogiinViewController.swift */; };
+		3CC3B17921F74DF200582D32 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B17821F74DF200582D32 /* FriendsViewController.swift */; };
+		3CC3B17B21F74E0C00582D32 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B17A21F74E0C00582D32 /* FriendsCell.swift */; };
+		3CC3B17E21F781BE00582D32 /* FriendsPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B17D21F781BE00582D32 /* FriendsPhotosViewController.swift */; };
+		3CC3B18021F781D800582D32 /* FriendsPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B17F21F781D800582D32 /* FriendsPhotoCell.swift */; };
+		3CC3B18321F7854E00582D32 /* UserGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B18221F7854E00582D32 /* UserGroupsViewController.swift */; };
+		3CC3B18521F7857100582D32 /* UserGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC3B18421F7857100582D32 /* UserGroupCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CC3B16021F7303500582D32 /* vkClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC3B16321F7303500582D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CC3B16521F7303500582D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CC3B16821F7303500582D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CC3B16A21F7303600582D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CC3B16D21F7303600582D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CC3B16F21F7303600582D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CC3B17521F7327500582D32 /* LogiinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogiinViewController.swift; sourceTree = "<group>"; };
+		3CC3B17821F74DF200582D32 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		3CC3B17A21F74E0C00582D32 /* FriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+		3CC3B17D21F781BE00582D32 /* FriendsPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotosViewController.swift; sourceTree = "<group>"; };
+		3CC3B17F21F781D800582D32 /* FriendsPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPhotoCell.swift; sourceTree = "<group>"; };
+		3CC3B18221F7854E00582D32 /* UserGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupsViewController.swift; sourceTree = "<group>"; };
+		3CC3B18421F7857100582D32 /* UserGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,148 @@
 		3CC3B16221F7303500582D32 /* vkClient */ = {
 			isa = PBXGroup;
 			children = (
-				3CC3B16321F7303500582D32 /* AppDelegate.swift */,
-				3CC3B16521F7303500582D32 /* ViewController.swift */,
-				3CC3B16721F7303500582D32 /* Main.storyboard */,
-				3CC3B16A21F7303600582D32 /* Assets.xcassets */,
-				3CC3B16C21F7303600582D32 /* LaunchScreen.storyboard */,
-				3CC3B16F21F7303600582D32 /* Info.plist */,
+				3CC3B18921F78E4700582D32 /* App */,
+				3CC3B18821F78E3E00582D32 /* Core */,
+				3CC3B18721F78E2700582D32 /* Resources */,
+				3CC3B18621F78E0E00582D32 /* Enviroments */,
 			);
 			path = vkClient;
+			sourceTree = "<group>";
+		};
+		3CC3B17721F74DA900582D32 /* FriendsController */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B17821F74DF200582D32 /* FriendsViewController.swift */,
+				3CC3B17A21F74E0C00582D32 /* FriendsCell.swift */,
+			);
+			path = FriendsController;
+			sourceTree = "<group>";
+		};
+		3CC3B17C21F7819100582D32 /* FriendsPhotoController */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B17D21F781BE00582D32 /* FriendsPhotosViewController.swift */,
+				3CC3B17F21F781D800582D32 /* FriendsPhotoCell.swift */,
+			);
+			path = FriendsPhotoController;
+			sourceTree = "<group>";
+		};
+		3CC3B18121F7850D00582D32 /* UserGroupController */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B18221F7854E00582D32 /* UserGroupsViewController.swift */,
+				3CC3B18421F7857100582D32 /* UserGroupCell.swift */,
+			);
+			path = UserGroupController;
+			sourceTree = "<group>";
+		};
+		3CC3B18621F78E0E00582D32 /* Enviroments */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B16F21F7303600582D32 /* Info.plist */,
+			);
+			path = Enviroments;
+			sourceTree = "<group>";
+		};
+		3CC3B18721F78E2700582D32 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B16A21F7303600582D32 /* Assets.xcassets */,
+				3CC3B18F21F78EA000582D32 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CC3B18821F78E3E00582D32 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B18E21F78E8F00582D32 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3CC3B18921F78E4700582D32 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B18D21F78E7A00582D32 /* Assembly */,
+				3CC3B18C21F78E7000582D32 /* Entity */,
+				3CC3B18B21F78E5F00582D32 /* BussinessLogic */,
+				3CC3B18A21F78E5300582D32 /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3CC3B18A21F78E5300582D32 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B19121F78ED900582D32 /* UIControllers */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		3CC3B18B21F78E5F00582D32 /* BussinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B19421F78F2A00582D32 /* AppDelegate */,
+				3CC3B19321F78F1A00582D32 /* Network */,
+			);
+			path = BussinessLogic;
+			sourceTree = "<group>";
+		};
+		3CC3B18C21F78E7000582D32 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3CC3B18D21F78E7A00582D32 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		3CC3B18E21F78E8F00582D32 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3CC3B18F21F78EA000582D32 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B16C21F7303600582D32 /* LaunchScreen.storyboard */,
+				3CC3B16721F7303500582D32 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3CC3B19121F78ED900582D32 /* UIControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B17521F7327500582D32 /* LogiinViewController.swift */,
+				3CC3B18121F7850D00582D32 /* UserGroupController */,
+				3CC3B17C21F7819100582D32 /* FriendsPhotoController */,
+				3CC3B17721F74DA900582D32 /* FriendsController */,
+			);
+			path = UIControllers;
+			sourceTree = "<group>";
+		};
+		3CC3B19321F78F1A00582D32 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3CC3B19421F78F2A00582D32 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3CC3B16321F7303500582D32 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC3B16621F7303500582D32 /* ViewController.swift in Sources */,
+				3CC3B17621F7327500582D32 /* LogiinViewController.swift in Sources */,
+				3CC3B17921F74DF200582D32 /* FriendsViewController.swift in Sources */,
+				3CC3B18521F7857100582D32 /* UserGroupCell.swift in Sources */,
+				3CC3B18021F781D800582D32 /* FriendsPhotoCell.swift in Sources */,
+				3CC3B18321F7854E00582D32 /* UserGroupsViewController.swift in Sources */,
+				3CC3B17E21F781BE00582D32 /* FriendsPhotosViewController.swift in Sources */,
 				3CC3B16421F7303500582D32 /* AppDelegate.swift in Sources */,
+				3CC3B17B21F74E0C00582D32 /* FriendsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZ6BY5499Q;
-				INFOPLIST_FILE = vkClient/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/vkClient/Enviroments/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Chursin.vkClient";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FZ6BY5499Q;
-				INFOPLIST_FILE = vkClient/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/vkClient/Enviroments/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Artem-Chursin.vkClient";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
